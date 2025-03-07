@@ -1,0 +1,530 @@
+[
+  {
+    "items": [
+      {
+        "item": "minecraft:iron_pickaxe",
+        "display_name": "效率铁镐",
+        "command": "/internal_autocraftitem EFFICIENCY_PICKAXE",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:furnace",
+        "display_name": "煅炉",
+        "command": "/internal_autocraftitem FORGE",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "display_name": "冶铁",
+        "command": "/internal_autocraftitem IRON_INGOTS",
+        "nbt": "",
+        "count": 10,
+        "Enchant": "1"
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "display_name": "冶金",
+        "command": "/internal_autocraftitem GOLD_PACK",
+        "nbt": "",
+        "count": 10,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:iron_sword",
+        "display_name": "学徒之剑",
+        "command": "/internal_autocraftitem APPRENTICE_SWORD",
+        "nbt": "{ExtraAttributes:{UHCid:1002}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:iron_helmet",
+        "display_name": "学徒头盔",
+        "command": "/internal_autocraftitem APPRENTICE_HELMET",
+        "nbt": "{ExtraAttributes:{UHCid:1001}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_helmet",
+        "display_name": "冰斗湖头盔",
+        "command": "/internal_autocraftitem TARNHELM",
+        "nbt": "{ExtraAttributes:{UHCid:6003}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:golden_apple",
+        "display_name": "简易金苹果",
+        "command": "/internal_autocraftitem LIGHT_APPLE",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "display_name": "烈焰棒",
+        "command": "/internal_autocraftitem BLAZE_ROD",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:obsidian",
+        "display_name": "黑曜石",
+        "command": "/internal_autocraftitem OBSIDIAN",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:diamond_sword",
+        "display_name": "巨龙之剑",
+        "command": "/internal_autocraftitem DRAGON_SWORD",
+        "nbt": "{ExtraAttributes:{UHCid:2004}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:iron_sword",
+        "display_name": "安都瑞尔之剑",
+        "command": "/internal_autocraftitem ANDURIL",
+        "nbt": "{ExtraAttributes:{UHCid:50008}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:anvil",
+        "display_name": "简易铁砧",
+        "command": "/internal_autocraftitem LIGHT_ANVIL",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "锋利书",
+        "command": "/internal_autocraftitem SHARP_ONE_BOOK",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "保护书",
+        "command": "/internal_autocraftitem PROT_BOOK",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "display_name": "启蒙套装",
+        "command": "/internal_autocraftitem ENCHANT_BOTTLES",
+        "nbt": "",
+        "count": 8,
+        "Enchant": "false"
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "item": "minecraft:chest",
+        "display_name": "背包",
+        "command": "/internal_autocraftitem BACKPACK",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:iron_sword",
+        "display_name": "斩首剑",
+        "command": "/internal_autocraftitem VORPAL_SWORD",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "display_name": "炼药制品",
+        "command": "/internal_autocraftitem NETHER_WART",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:glowstone_dust",
+        "display_name": "萤石粉",
+        "command": "/internal_autocraftitem EIGHT_GLOWSTONE",
+        "nbt": "",
+        "count": 8,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:diamond_pickaxe",
+        "display_name": "哲人稿",
+        "command": "/internal_autocraftitem PHILOSOPHER_PICK",
+        "nbt": "{ExtraAttributes:{UHCid:6004}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:golden_carrot",
+        "display_name": "丰饶之角",
+        "command": "/internal_autocraftitem CORNUCOPIA",
+        "nbt": "{ExtraAttributes:{UHCid:50011}}",
+        "count": 3,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:arrow",
+        "display_name": "经济弓箭",
+        "command": "/internal_autocraftitem ARROWS_ECONOMY",
+        "nbt": "",
+        "count": 20,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:bow",
+        "display_name": "学徒弓",
+        "command": "/internal_autocraftitem APPRENTICE_BOW",
+        "nbt": "{ExtraAttributes:{UHCid:1003}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "圣水",
+        "command": "/internal_autocraftitem ABSORPTION_POT",
+        "nbt": "{ExtraAttributes:{UHCid:8003}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "速度三",
+        "command": "/internal_autocraftitem POTION_OF_VELOCITY",
+        "nbt": "{ExtraAttributes:{UHCid:10003}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:spawn_egg",
+        "display_name": "骷髅马",
+        "command": "/internal_autocraftitem DAREDEVIL",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:bow",
+        "display_name": "变换弓",
+        "command": "/internal_autocraftitem MODULAR_BOW",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_leggings",
+        "display_name": "潮汐裤",
+        "command": "/internal_autocraftitem HIDE_OF_LEVIATHAN",
+        "nbt": "{ExtraAttributes:{UHCid:50004}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_chestplate",
+        "display_name": "力量甲",
+        "command": "/internal_autocraftitem BARBARIAN_CHESTPLATE",
+        "nbt": "{ExtraAttributes:{UHCid:50027}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_boots",
+        "display_name": "小飞鞋",
+        "command": "/internal_autocraftitem HERMES_BOOTS",
+        "nbt": "{ExtraAttributes:{UHCid:50026}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_chestplate",
+        "display_name": "龙甲",
+        "command": "/internal_autocraftitem DRAGON_ARMOR",
+        "nbt": "{ExtraAttributes:{UHCid:3004}}",
+        "count": 1,
+        "Enchant": "true"
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "item": "minecraft:diamond_chestplate",
+        "display_name": "聚变甲",
+        "command": "/internal_autocraftitem FUSION_ARMOR",
+        "nbt": "{ExtraAttributes:{UHCid:12004}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_helmet",
+        "display_name": "永生帽",
+        "command": "/internal_autocraftitem EXODUS",
+        "nbt": "{ExtraAttributes:{UHCid:50003}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_boots",
+        "display_name": "七国靴",
+        "command": "/internal_autocraftitem SEVEN_LEAGUE_BOOTS",
+        "nbt": "{ExtraAttributes:{UHCid:5004}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_boots",
+        "display_name": "水鞋",
+        "command": "/internal_autocraftitem SHOES_OF_VIDAR",
+        "nbt": "{ExtraAttributes:{UHCid:50019}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:fishing_rod",
+        "display_name": "王竿",
+        "command": "/internal_autocraftitem KINGS_ROD",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_sword",
+        "display_name": "杀人剑",
+        "command": "/internal_autocraftitem BLOODLUST",
+        "nbt": "{ExtraAttributes:{UHCid:50023}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_sword",
+        "display_name": "咖喱棒",
+        "command": "/internal_autocraftitem EXCALIBUR",
+        "nbt": "{ExtraAttributes:{UHCid:50007}}",
+        "count": 1,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:diamond_axe",
+        "display_name": "雷斧",
+        "command": "/internal_autocraftitem AXE_OF_PERUN",
+        "nbt": "{ExtraAttributes:{UHCid:50006}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:iron_hoe",
+        "display_name": "镰刀",
+        "command": "/internal_autocraftitem DEATHS_SCYTHE",
+        "nbt": "{ExtraAttributes:{UHCid:50009}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "肃清",
+        "command": "/internal_autocraftitem FLASK_OF_CLEANSING",
+        "nbt": "{ExtraAttributes:{UHCid:50018}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:spawn_egg",
+        "display_name": "芬里厄",
+        "command": "/internal_autocraftitem FENRIR",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "月神书",
+        "command": "/internal_autocraftitem BOOK_OF_THOTH",
+        "nbt": "{ExtraAttributes:{UHCid:7004}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "无敌药",
+        "command": "/internal_autocraftitem DEUS_EX_MACHINA",
+        "nbt": "{ExtraAttributes:{UHCid:50014}}",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:nether_star",
+        "display_name": "大师卷轴",
+        "command": "/internal_autocraftitem EXPERT_SEAL",
+        "nbt": "",
+        "count": 6,
+        "Enchant": "true"
+      },
+      {
+        "item": "minecraft:flower_pot",
+        "display_name": "命运的呼唤",
+        "command": "/internal_autocraftitem ANGELS_DESCENT",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:end_portal_frame",
+        "display_name": "上帝之骰",
+        "command": "/internal_autocraftitem DICE_OF_GOD",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      },
+      {
+        "item": "minecraft:air",
+        "display_name": "",
+        "command": "",
+        "nbt": "",
+        "count": 1,
+        "Enchant": "false"
+      }
+    ]
+  }
+]

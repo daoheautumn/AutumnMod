@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "autumnmod",
+    "name": "AutumnMod",
+    "description": "https://space.bilibili.com/511496730",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": ["Daohe"],
+    "clientSideOnly": true
+  }
+]

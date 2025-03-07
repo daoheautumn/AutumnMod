@@ -1,0 +1,11 @@
+{
+  "click": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "autumnmod:click",
+        "stream": false
+      }
+    ]
+  }
+}
