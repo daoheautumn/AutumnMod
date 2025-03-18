@@ -34,7 +34,7 @@ processResources {
     }
 
     from(sourceSets.main.resources.srcDirs) {
-        include 'assets/**' // 确保包含所有资源文件
+        include 'assets/**'
         exclude 'mcmod.info'
     }
 }
