@@ -10,7 +10,7 @@ buildscript {
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.2"
+version = "1.3"
 group = "com.daohe"
 archivesBaseName = "autumnmod"
 
@@ -30,10 +30,11 @@ processResources {
 
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
-        expand 'version':project.version, 'mcversion':project.minecraft.version
+        expand 'version': project.version, 'mcversion': project.minecraft.version
     }
 
     from(sourceSets.main.resources.srcDirs) {
+        include 'assets/**' // 确保包含所有资源文件
         exclude 'mcmod.info'
     }
 }

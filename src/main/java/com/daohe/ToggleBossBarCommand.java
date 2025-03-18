@@ -19,7 +19,9 @@ public class ToggleBossBarCommand extends CommandBase {
     @Override
     public void processCommand(ICommandSender sender, String[] args) {
         AutumnMod.isBossBarVisible = !AutumnMod.isBossBarVisible;
-        String message = AutumnMod.isBossBarVisible ? "§a开启了 boss bar" : "§c关闭了 boss bar";
+        String message = AutumnMod.isBossBarVisible ?
+                LanguageLoader.format("command.togglebossbar.on") :
+                LanguageLoader.format("command.togglebossbar.off");
         Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(message));
         AutumnMod.saveConfig();
     }

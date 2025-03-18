@@ -19,14 +19,14 @@ public class CraftHelperReloadCommand extends CommandBase {
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "/crafthelper reload - Reloads the craft helper items from config file.";
+        return LanguageLoader.format("command.crafthelper.usage");
     }
 
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
         if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
             craftHelper.reloadItems();
-            sender.addChatMessage(new ChatComponentText("CraftHelper items reloaded successfully."));
+            sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.crafthelper.reload.success")));
         } else {
             throw new CommandException("Usage: " + getCommandUsage(sender));
         }

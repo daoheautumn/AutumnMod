@@ -52,7 +52,7 @@ public class Autocraft {
             ClientRegistry.registerKeyBinding(AUTO_CRAFT_KEYS[i]);
         }
         MinecraftForge.EVENT_BUS.register(new Autocraft());
-        LOGGER.info("Autocraft initialized with key bindings in specified order.");
+        LOGGER.info(LanguageLoader.format("log.autocraft.init"));
     }
 
     @SubscribeEvent
@@ -63,7 +63,7 @@ public class Autocraft {
                 if (AUTO_CRAFT_KEYS[i].isPressed()) {
                     mc.thePlayer.sendChatMessage(CRAFT_COMMANDS[i]);
                     mc.thePlayer.playSound(CLICK_SOUND, 1.0F, 1.0F);
-                    LOGGER.info("Triggered autocraft: {}", CRAFT_COMMANDS[i]);
+                    LOGGER.info(LanguageLoader.format("log.autocraft.trigger", CRAFT_COMMANDS[i]));
                 }
             }
         }

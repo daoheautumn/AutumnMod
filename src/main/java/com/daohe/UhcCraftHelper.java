@@ -34,6 +34,8 @@ import java.util.List;
 public class UhcCraftHelper {
     private static final Logger LOGGER = LogManager.getLogger(AutumnMod.MODID);
 
+    public static boolean isCraftHelperVisible = true;
+
     private boolean shouldShowElements = false;
     private int gridBaseX;
     private int gridBaseY;
@@ -175,6 +177,11 @@ public class UhcCraftHelper {
     @SubscribeEvent
     public void onGuiInit(GuiScreenEvent.InitGuiEvent.Post event) {
         GuiScreen gui = event.gui;
+        if (!isCraftHelperVisible) {
+            shouldShowElements = false;
+            return;
+        }
+
         if (gui instanceof GuiContainer) {
             GuiContainer containerGui = (GuiContainer) gui;
             IInventory inventory = getLowerInventory(containerGui);
@@ -185,8 +192,7 @@ public class UhcCraftHelper {
                 gridBaseY = (gui.height - (GRID_ROWS * SLOT_SIZE + SLOT_SIZE)) / 2 - 20;
                 pageRowY = gridBaseY + GRID_ROWS * SLOT_SIZE;
                 shouldShowElements = true;
-            }
-            else if (gui instanceof GuiInventory) {
+            } else if (gui instanceof GuiInventory) {
                 final int EXTRA_RIGHT_OFFSET = 5;
                 final int EXTRA_DOWN_OFFSET = 30;
 
@@ -218,7 +224,7 @@ public class UhcCraftHelper {
 
     @SubscribeEvent
     public void onGuiRender(GuiScreenEvent.DrawScreenEvent.Post event) {
-        if (!shouldShowElements) return;
+        if (!shouldShowElements || !isCraftHelperVisible) return;
 
         Minecraft mc = Minecraft.getMinecraft();
         GuiScreen gui = event.gui;
@@ -371,7 +377,7 @@ public class UhcCraftHelper {
 
     @SubscribeEvent
     public void onMouseClick(GuiScreenEvent.MouseInputEvent.Pre event) {
-        if (!shouldShowElements) return;
+        if (!shouldShowElements || !isCraftHelperVisible) return;
 
         Minecraft mc = Minecraft.getMinecraft();
         if (mc.thePlayer == null) return;

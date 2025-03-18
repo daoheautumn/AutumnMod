@@ -1,0 +1,44 @@
+# Commands
+command.crafthelper.reload.success=§fCraftHelper items reloaded successfully.
+command.crafthelper.usage=§f/crafthelper reload - Reloads the craft helper items from config file.
+command.autumn.usage=§f/autumn <command> - Use '/au help' for a list of commands.
+command.autumn.unknown=§cUnknown command: %s. Use '/au help' for a list of commands.
+command.autumn.togglebossbar.on=§f[§6A§f] §aBoss bar enabled
+command.autumn.togglebossbar.off=§f[§6A§f] §cBoss bar disabled
+command.autumn.reloadcrafthelper.success=§f[§6A§f] §fCraftHelper items reloaded successfully.
+command.autumn.togglecrafthelper.on=§f[§6A§f] §aCraftHelper HUD enabled
+command.autumn.togglecrafthelper.off=§f[§6A§f] §cCraftHelper HUD disabled
+command.autumn.toggleitemalert.on=§f[§6A§f] §aItem detection alerts enabled
+command.autumn.toggleitemalert.off=§f[§6A§f] §cItem detection alerts disabled
+command.autumn.help.title=§6=== AutumnMod Commands ===
+command.autumn.help.togglebossbar=§e/au ToggleBossBar §f- Toggle Boss Bar visibility
+command.autumn.help.togglecrafthelper=§e/au ToggleCraftHelper §f- Toggle CraftHelper HUD
+command.autumn.help.toggleitemalert=§e/au ToggleItemAlert §f- Toggle item detection alerts
+command.autumn.help.reloadcrafthelper=§e/au ReloadCraftHelper §f- Reload CraftHelper item config
+command.autumn.help.standalone=§6--- Quick Play Commands ---
+command.autumn.help.quickplay=§eQuick Play Commands:
+command.autumn.help.1s=§e/1s §f- Join Bedwars Solo mode
+command.autumn.help.2s=§e/2s §f- Join Bedwars Duos mode
+command.autumn.help.3s=§e/3s §f- Join Bedwars Trios mode
+command.autumn.help.4s=§e/4s §f- Join Bedwars Squads mode
+command.autumn.help.4v4=§e/4v4 §f- Join Bedwars 4v4 mode
+command.autumn.help.solo=§e/solo §f- Join UHC Solo mode
+command.autumn.help.teams=§e/teams §f- Join UHC Teams mode
+command.autumn.help.footer=§6====================
+command.togglebossbar.on=§aBoss bar enabled
+command.togglebossbar.off=§cBoss bar disabled
+command.autumn.lang.success=§f[§6A§f] §aLanguage switched to %s
+command.autumn.lang.invalid=§cInvalid language: %s. Use 'en' or 'cn'.
+
+# ItemChecker
+itemchecker.alert=§f[§6A§f] §c%s§7 has %s%s%s §f(%sm)
+
+# Logging
+log.config.notfound=§eConfig file not found, using default settings.
+log.config.load.success=§aConfig loaded successfully.
+log.config.load.failed=§cFailed to load config file: %s
+log.config.save.success=§aConfig saved successfully.
+log.config.save.failed=§cFailed to save config file: %s
+log.init.success=§aAutumnMod initialized successfully.
+log.autocraft.init=§aAutocraft initialized with key bindings in specified order.
+log.autocraft.trigger=§aTriggered autocraft: %s

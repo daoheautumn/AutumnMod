@@ -1,0 +1,44 @@
+# Commands
+command.crafthelper.reload.success=§fCraftHelper 物品重新加载成功。
+command.crafthelper.usage=§f/crafthelper reload - 从配置文件重新加载 CraftHelper 物品。
+command.autumn.usage=§f/autumn <命令> - 使用 '/au help' 查看命令列表。
+command.autumn.unknown=§c未知命令：%s。请使用 '/au help' 查看命令列表。
+command.autumn.togglebossbar.on=§f[§6A§f] §a已开启 Boss Bar
+command.autumn.togglebossbar.off=§f[§6A§f] §c已关闭 Boss Bar
+command.autumn.reloadcrafthelper.success=§f[§6A§f] §fCraftHelper 物品重新加载成功。
+command.autumn.togglecrafthelper.on=§f[§6A§f] §a已开启 CraftHelper 界面
+command.autumn.togglecrafthelper.off=§f[§6A§f] §c已关闭 CraftHelper 界面
+command.autumn.toggleitemalert.on=§f[§6A§f] §a已开启物品检测提示
+command.autumn.toggleitemalert.off=§f[§6A§f] §c已关闭物品检测提示
+command.autumn.help.title=§6=== AutumnMod 命令 ===
+command.autumn.help.togglebossbar=§e/au ToggleBossBar §f- 切换 Boss Bar 显示状态
+command.autumn.help.togglecrafthelper=§e/au ToggleCraftHelper §f- 切换 CraftHelper 界面显示
+command.autumn.help.toggleitemalert=§e/au ToggleItemAlert §f- 切换物品检测提示
+command.autumn.help.reloadcrafthelper=§e/au ReloadCraftHelper §f- 重新加载 CraftHelper 物品配置
+command.autumn.help.standalone=§6--- 独立命令 ---
+command.autumn.help.quickplay=§e快速游戏命令：
+command.autumn.help.1s=§e/1s §f- 进入 Bedwars 单人模式
+command.autumn.help.2s=§e/2s §f- 进入 Bedwars 双人模式
+command.autumn.help.3s=§e/3s §f- 进入 Bedwars 三人模式
+command.autumn.help.4s=§e/4s §f- 进入 Bedwars 四人模式
+command.autumn.help.4v4=§e/4v4 §f- 进入 Bedwars 4v4 模式
+command.autumn.help.solo=§e/solo §f- 进入 UHC 单人模式
+command.autumn.help.teams=§e/teams §f- 进入 UHC 团队模式
+command.autumn.help.footer=§6====================
+command.togglebossbar.on=§a已开启 Boss Bar
+command.togglebossbar.off=§c已关闭 Boss Bar
+command.autumn.lang.success=§f[§6A§f] §a语言已切换为 %s
+command.autumn.lang.invalid=§c未知语言：%s。请使用 'en' 或 'cn'。
+
+# ItemChecker
+itemchecker.alert=§f[§6A§f] §c%s§7 持有 %s%s%s §f(%sm)
+
+# Logging
+log.config.notfound=§e未找到配置文件，使用默认设置。
+log.config.load.success=§a配置文件加载成功。
+log.config.load.failed=§c无法加载配置文件：%s
+log.config.save.success=§a配置文件保存成功。
+log.config.save.failed=§c无法保存配置文件：%s
+log.init.success=§aAutumnMod 初始化成功。
+log.autocraft.init=§aAutocraft 已初始化，按指定顺序绑定快捷键。
+log.autocraft.trigger=§a触发自动合成：%s
