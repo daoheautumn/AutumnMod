@@ -16,6 +16,7 @@ public class ToggleBossBarCommand extends CommandBase {
         return "/togglebossbar";
     }
 
+    // 切换Boss栏显示状态
     @Override
     public void processCommand(ICommandSender sender, String[] args) {
         AutumnMod.isBossBarVisible = !AutumnMod.isBossBarVisible;

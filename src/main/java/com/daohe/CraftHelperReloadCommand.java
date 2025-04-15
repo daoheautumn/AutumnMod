@@ -22,6 +22,7 @@ public class CraftHelperReloadCommand extends CommandBase {
         return LanguageLoader.format("command.crafthelper.usage");
     }
 
+    // 处理重载配置的命令
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
         if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {

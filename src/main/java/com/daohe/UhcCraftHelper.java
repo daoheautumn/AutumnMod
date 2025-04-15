@@ -34,7 +34,7 @@ import java.util.List;
 public class UhcCraftHelper {
     private static final Logger LOGGER = LogManager.getLogger(AutumnMod.MODID);
 
-    public static boolean isCraftHelperVisible = true;
+    public static boolean isCraftHelperVisible = false;
 
     private boolean shouldShowElements = false;
     private int gridBaseX;
@@ -75,11 +75,13 @@ public class UhcCraftHelper {
         displayNames = new String[totalPages][GRID_ROWS * GRID_COLS];
     }
 
+    // 加载配置
     public void preInit(FMLPreInitializationEvent event) {
         configFile = new File(event.getModConfigurationDirectory(), "uhc_craft_items.json");
         loadItemsFromFile();
     }
 
+    // 从配置文件加载物品数据
     private void loadItemsFromFile() {
         if (!configFile.exists()) {
             copyDefaultConfigFromResources();
@@ -91,6 +93,7 @@ public class UhcCraftHelper {
             List<PageConfig> pages = gson.fromJson(reader, type);
 
             if (pages == null || pages.isEmpty()) {
+                LOGGER.warn("UHC craft items config is empty or null, copying default.");
                 copyDefaultConfigFromResources();
                 return;
             }
@@ -116,6 +119,7 @@ public class UhcCraftHelper {
                                     NBTTagCompound nbt = (NBTTagCompound) JsonToNBT.getTagFromJson(itemConfig.nbt);
                                     stack.setTagCompound(nbt);
                                 } catch (NBTException e) {
+                                    LOGGER.error("Failed to parse NBT for item {}: {}", itemConfig.item, e.getMessage());
                                 }
                             }
 
@@ -147,18 +151,25 @@ public class UhcCraftHelper {
                 }
             }
         } catch (IOException e) {
+            LOGGER.error("Failed to load UHC craft items config: {}", e.getMessage());
+            copyDefaultConfigFromResources();
+        } catch (com.google.gson.JsonSyntaxException e) {
+            LOGGER.error("Invalid JSON syntax in UHC craft items config: {}", e.getMessage());
             copyDefaultConfigFromResources();
         }
     }
 
+    // 重新加载物品配置
     public void reloadItems() {
         loadItemsFromFile();
         currentPage = Math.min(currentPage, totalPages);
     }
 
+    // 加载默认配置文件
     private void copyDefaultConfigFromResources() {
         try (InputStream inputStream = Minecraft.class.getResourceAsStream("/assets/" + AutumnMod.MODID + "/config/uhc_craft_items.json")) {
             if (inputStream == null) {
+                LOGGER.error("Default UHC craft items config not found in resources.");
                 return;
             }
 
@@ -171,9 +182,11 @@ public class UhcCraftHelper {
                 loadItemsFromFile();
             }
         } catch (IOException e) {
+            LOGGER.error("Failed to copy default UHC craft items config: {}", e.getMessage());
         }
     }
 
+    // 初始化GUI时确定显示位置
     @SubscribeEvent
     public void onGuiInit(GuiScreenEvent.InitGuiEvent.Post event) {
         GuiScreen gui = event.gui;
@@ -222,6 +235,7 @@ public class UhcCraftHelper {
         }
     }
 
+    // 渲染合成助手界面
     @SubscribeEvent
     public void onGuiRender(GuiScreenEvent.DrawScreenEvent.Post event) {
         if (!shouldShowElements || !isCraftHelperVisible) return;
@@ -326,6 +340,7 @@ public class UhcCraftHelper {
         GlStateManager.popMatrix();
     }
 
+    // 渲染物品提示信息
     private void renderTooltip(GuiScreen gui, List<String> tooltip, int mouseX, int mouseY) {
         if (tooltip.isEmpty()) return;
 
@@ -368,6 +383,7 @@ public class UhcCraftHelper {
         GlStateManager.enableDepth();
     }
 
+    // 绘制界面边框
     private void drawBorder(GuiScreen gui, int x1, int y1, int x2, int y2, int color) {
         gui.drawRect(x1, y1, x2, y1 + 1, color);
         gui.drawRect(x1, y2 - 1, x2, y2, color);
@@ -375,6 +391,7 @@ public class UhcCraftHelper {
         gui.drawRect(x2 - 1, y1, x2, y2, color);
     }
 
+    // 处理鼠标点击事件
     @SubscribeEvent
     public void onMouseClick(GuiScreenEvent.MouseInputEvent.Pre event) {
         if (!shouldShowElements || !isCraftHelperVisible) return;
@@ -441,6 +458,7 @@ public class UhcCraftHelper {
                 return gui.inventorySlots.getSlot(0).inventory;
             }
         } catch (Exception e) {
+            LOGGER.error("Failed to get lower inventory: {}", e.getMessage());
         }
         return null;
     }

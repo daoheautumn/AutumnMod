@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "bass": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "autumnmod:bass",
+        "stream": false
+      }
+    ]
   }
 }

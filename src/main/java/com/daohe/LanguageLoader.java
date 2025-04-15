@@ -2,7 +2,6 @@ package com.daohe;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
@@ -24,6 +23,7 @@ public class LanguageLoader {
         loadLanguage("zh_CN");
     }
 
+    // 加载语言文件
     private static void loadLanguage(String lang) {
         try {
             String path = "/assets/" + AutumnMod.MODID + "/lang/" + lang + ".lang";
@@ -44,6 +44,7 @@ public class LanguageLoader {
         }
     }
 
+    // 设置当前语言
     public static void setLanguage(String lang) {
         if (LANG_MAPPING.containsKey(lang)) {
             currentLang = lang;
@@ -53,14 +54,17 @@ public class LanguageLoader {
         }
     }
 
+    // 获取当前语言
     public static String getCurrentLanguage() {
         return currentLang;
     }
 
+    // 获取当前语言文件名称
     public static String getCurrentLanguageFile() {
         return LANG_MAPPING.getOrDefault(currentLang, "en_US");
     }
 
+    // 格式化
     public static String format(String key, Object... args) {
         String fileLang = LANG_MAPPING.getOrDefault(currentLang, "en_US");
         Map<String, String> translations = LANGUAGE_MAPS.getOrDefault(fileLang, LANGUAGE_MAPS.get("en_US"));

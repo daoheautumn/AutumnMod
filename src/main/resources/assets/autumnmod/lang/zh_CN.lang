@@ -34,11 +34,11 @@ command.autumn.lang.invalid=§c未知语言：%s。请使用 'en' 或 'cn'。
 itemchecker.alert=§f[§6A§f] §c%s§7 持有 %s%s%s §f(%sm)
 
 # Logging
-log.config.notfound=§e未找到配置文件，使用默认设置。
-log.config.load.success=§a配置文件加载成功。
-log.config.load.failed=§c无法加载配置文件：%s
-log.config.save.success=§a配置文件保存成功。
-log.config.save.failed=§c无法保存配置文件：%s
-log.init.success=§aAutumnMod 初始化成功。
-log.autocraft.init=§aAutocraft 已初始化，按指定顺序绑定快捷键。
-log.autocraft.trigger=§a触发自动合成：%s
+log.config.notfound=§eConfig file not found, using default settings.
+log.config.load.success=§aConfig loaded successfully.
+log.config.load.failed=§cFailed to load config file: %s
+log.config.save.success=§aConfig saved successfully.
+log.config.save.failed=§cFailed to save config file: %s
+log.init.success=§aAutumnMod initialized successfully.
+log.autocraft.init=§aAutocraft initialized with key bindings in specified order.
+log.autocraft.trigger=§aTriggered autocraft: %s

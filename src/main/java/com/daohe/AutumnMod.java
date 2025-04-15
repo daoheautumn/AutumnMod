@@ -8,15 +8,15 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonSyntaxException;
 
-@Mod(modid = AutumnMod.MODID, version = "1.3", clientSideOnly = true)
+@Mod(modid = AutumnMod.MODID, version = "1.4", clientSideOnly = true)
 public class AutumnMod {
     public static final String MODID = "autumnmod";
     public static final String VERSION = "1.0";
@@ -30,6 +30,7 @@ public class AutumnMod {
     private UhcCraftHelper uhcCraftHelper;
     private ItemChecker itemChecker;
 
+    // jiazai配置
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         configFile = new File(event.getModConfigurationDirectory(), CONFIG_FILE_NAME);
@@ -41,6 +42,7 @@ public class AutumnMod {
         itemChecker = new ItemChecker();
     }
 
+    // 初始化
     @EventHandler
     public void init(FMLInitializationEvent event) {
         registerCommands();
@@ -51,17 +53,20 @@ public class AutumnMod {
         LOGGER.info(LanguageLoader.format("log.init.success"));
     }
 
+    // 注册命令
     private void registerCommands() {
         ClientCommandHandler.instance.registerCommand(new AutumnCommand(uhcCraftHelper));
         PlayCommands.registerCommands();
     }
 
+    // 从文件加载配置
     private void loadConfig() {
         if (!configFile.exists()) {
             LOGGER.warn(LanguageLoader.format("log.config.notfound"));
             saveConfig();
             return;
         }
+
         try (FileReader reader = new FileReader(configFile)) {
             Gson gson = new Gson();
             Config config = gson.fromJson(reader, Config.class);
@@ -71,12 +76,19 @@ public class AutumnMod {
                 isItemAlertEnabled = config.isItemAlertEnabled;
                 LanguageLoader.setLanguage(config.currentLanguage != null ? config.currentLanguage : "en");
                 LOGGER.info(LanguageLoader.format("log.config.load.success"));
+            } else {
+                LOGGER.warn("Config is null, using defaults.");
+                saveConfig();
             }
         } catch (IOException e) {
             LOGGER.error(LanguageLoader.format("log.config.load.failed", configFile.getAbsolutePath()), e);
+        } catch (JsonSyntaxException e) {
+            LOGGER.error("Invalid JSON syntax in config file: {}", configFile.getAbsolutePath(), e);
+            saveConfig();
         }
     }
 
+    // 保存配置到文件
     public static void saveConfig() {
         try (FileWriter writer = new FileWriter(configFile)) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -94,7 +106,7 @@ public class AutumnMod {
 
     private static class Config {
         public boolean isBossBarVisible = true;
-        public boolean isCraftHelperVisible = true;
+        public boolean isCraftHelperVisible = false;
         public boolean isItemAlertEnabled = true;
         public String currentLanguage = "en";
     }

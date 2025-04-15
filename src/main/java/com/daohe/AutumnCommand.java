@@ -5,7 +5,6 @@ import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.util.ChatComponentText;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -31,6 +30,7 @@ public class AutumnCommand extends CommandBase {
         return LanguageLoader.format("command.autumn.usage");
     }
 
+    // 处理 /au 子命令
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
         if (args.length == 0) {
@@ -96,6 +96,7 @@ public class AutumnCommand extends CommandBase {
         }
     }
 
+    // tab自动补全
     @Override
     public List<String> addTabCompletionOptions(ICommandSender sender, String[] args, net.minecraft.util.BlockPos pos) {
         if (args.length == 1) {
@@ -106,6 +107,7 @@ public class AutumnCommand extends CommandBase {
         return null;
     }
 
+    // help菜单
     private void sendHelpMessage(ICommandSender sender) {
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.title")));
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.togglebossbar")));
