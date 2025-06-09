@@ -1,4 +1,4 @@
-package com.daohe;
+package com.daohe.autumnmod;
 
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,21 +16,22 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonSyntaxException;
 
-@Mod(modid = AutumnMod.MODID, version = "1.4", clientSideOnly = true)
+@Mod(modid = AutumnMod.MODID, version = "1.5", clientSideOnly = true)
 public class AutumnMod {
     public static final String MODID = "autumnmod";
     public static final String VERSION = "1.0";
     public static final String CONFIG_FILE_NAME = "autumnmod.json";
 
-    private static final Logger LOGGER = LogManager.getLogger(MODID);
+    public static final Logger LOGGER = LogManager.getLogger(MODID);
     public static boolean isBossBarVisible = true;
     public static boolean isItemAlertEnabled = true;
+    public static boolean isInventoryCenterEnabled = true;
+    public static boolean isDynamicCraftMode = false;
     private static File configFile;
 
     private UhcCraftHelper uhcCraftHelper;
     private ItemChecker itemChecker;
 
-    // jiazai配置
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         configFile = new File(event.getModConfigurationDirectory(), CONFIG_FILE_NAME);
@@ -42,24 +43,22 @@ public class AutumnMod {
         itemChecker = new ItemChecker();
     }
 
-    // 初始化
     @EventHandler
     public void init(FMLInitializationEvent event) {
         registerCommands();
         MinecraftForge.EVENT_BUS.register(new BossBarHandler());
         MinecraftForge.EVENT_BUS.register(uhcCraftHelper);
         MinecraftForge.EVENT_BUS.register(itemChecker);
+        MinecraftForge.EVENT_BUS.register(new InventoryCenterer());
         Autocraft.init();
         LOGGER.info(LanguageLoader.format("log.init.success"));
     }
 
-    // 注册命令
     private void registerCommands() {
         ClientCommandHandler.instance.registerCommand(new AutumnCommand(uhcCraftHelper));
         PlayCommands.registerCommands();
     }
 
-    // 从文件加载配置
     private void loadConfig() {
         if (!configFile.exists()) {
             LOGGER.warn(LanguageLoader.format("log.config.notfound"));
@@ -74,6 +73,8 @@ public class AutumnMod {
                 isBossBarVisible = config.isBossBarVisible;
                 UhcCraftHelper.isCraftHelperVisible = config.isCraftHelperVisible;
                 isItemAlertEnabled = config.isItemAlertEnabled;
+                isInventoryCenterEnabled = config.isInventoryCenterEnabled;
+                isDynamicCraftMode = config.isDynamicCraftMode;
                 LanguageLoader.setLanguage(config.currentLanguage != null ? config.currentLanguage : "en");
                 LOGGER.info(LanguageLoader.format("log.config.load.success"));
             } else {
@@ -88,7 +89,6 @@ public class AutumnMod {
         }
     }
 
-    // 保存配置到文件
     public static void saveConfig() {
         try (FileWriter writer = new FileWriter(configFile)) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -96,6 +96,8 @@ public class AutumnMod {
             config.isBossBarVisible = isBossBarVisible;
             config.isCraftHelperVisible = UhcCraftHelper.isCraftHelperVisible;
             config.isItemAlertEnabled = isItemAlertEnabled;
+            config.isInventoryCenterEnabled = isInventoryCenterEnabled;
+            config.isDynamicCraftMode = isDynamicCraftMode;
             config.currentLanguage = LanguageLoader.getCurrentLanguage();
             gson.toJson(config, writer);
             LOGGER.info(LanguageLoader.format("log.config.save.success"));
@@ -108,6 +110,8 @@ public class AutumnMod {
         public boolean isBossBarVisible = true;
         public boolean isCraftHelperVisible = false;
         public boolean isItemAlertEnabled = true;
+        public boolean isInventoryCenterEnabled = true;
+        public boolean isDynamicCraftMode = false;
         public String currentLanguage = "en";
     }
 }

@@ -1,4 +1,4 @@
-package com.daohe;
+package com.daohe.autumnmod;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -44,7 +44,6 @@ public class LanguageLoader {
         }
     }
 
-    // 设置当前语言
     public static void setLanguage(String lang) {
         if (LANG_MAPPING.containsKey(lang)) {
             currentLang = lang;
@@ -54,17 +53,14 @@ public class LanguageLoader {
         }
     }
 
-    // 获取当前语言
     public static String getCurrentLanguage() {
         return currentLang;
     }
 
-    // 获取当前语言文件名称
     public static String getCurrentLanguageFile() {
         return LANG_MAPPING.getOrDefault(currentLang, "en_US");
     }
 
-    // 格式化
     public static String format(String key, Object... args) {
         String fileLang = LANG_MAPPING.getOrDefault(currentLang, "en_US");
         Map<String, String> translations = LANGUAGE_MAPS.getOrDefault(fileLang, LANGUAGE_MAPS.get("en_US"));

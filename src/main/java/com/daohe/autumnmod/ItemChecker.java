@@ -1,8 +1,6 @@
-package com.daohe;
+package com.daohe.autumnmod;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.command.CommandBase;
-import net.minecraft.command.ICommandSender;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -79,7 +77,7 @@ public class ItemChecker {
         put("Wolf Spawn Egg", new ItemInfo("§9", item -> item != null && item.getItem() == Items.spawn_egg && item.getItemDamage() == 95));
     }};
 
-    // debug
+    // debug cmd
     public ItemChecker() {
         ClientCommandHandler.instance.registerCommand(new WhatsMyHealthCommand());
     }
@@ -92,7 +90,7 @@ public class ItemChecker {
         if (mc.thePlayer == null || mc.theWorld == null || !AutumnMod.isItemAlertEnabled) return;
 
         float maxHealth = mc.thePlayer.getMaxHealth();
-        if (maxHealth != 40.0F && maxHealth != 60.0F) return;
+        if (maxHealth != 40.0F && maxHealth != 60.0F && maxHealth != 30.0F) return; //增加了对Less Health Modifier的支持
 
         List<Entity> entities = new ArrayList<>(mc.theWorld.loadedEntityList);
         for (Entity entity : entities) {
@@ -157,7 +155,6 @@ public class ItemChecker {
         }
     }
 
-    // 获取玩家生命值
     private float getTabListHealth(String playerName) {
         if (mc.thePlayer == null || mc.theWorld == null || mc.theWorld.getScoreboard() == null) return -1;
 
@@ -216,7 +213,6 @@ public class ItemChecker {
     }
 
     // 获取物品附魔信息
-    // PS hypixel获取不到别人手里物品的附魔信息
     private String getEnchantmentsString(ItemStack item) {
         if (item == null || !item.isItemEnchanted()) return "";
 
@@ -231,7 +227,7 @@ public class ItemChecker {
             short id = enchant.getShort("id");
             short lvl = enchant.getShort("lvl");
 
-            if (id == 34 && lvl == 1) { // hypixel 别人手里有附魔的物品返还的内容为耐久1
+            if (id == 34 && lvl == 1) {
                 unbreakingOneCount++;
             } else {
                 Enchantment enchantment = Enchantment.getEnchantmentById(id);
@@ -269,7 +265,6 @@ public class ItemChecker {
         boolean check(ItemStack item);
     }
 
-    // 实现 /whatsmyhealth
     private static class WhatsMyHealthCommand extends net.minecraft.command.CommandBase {
         @Override
         public String getCommandName() {

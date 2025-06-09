@@ -1,8 +1,8 @@
 # Commands
 command.crafthelper.reload.success=§fCraftHelper items reloaded successfully.
-command.crafthelper.usage=§f/crafthelper reload - Reloads the craft helper items from config file.
+command.crafthelper.usage=§f[§6A§f] §f/crafthelper reload - Reloads the craft helper items from config file.
 command.autumn.usage=§f/autumn <command> - Use '/au help' for a list of commands.
-command.autumn.unknown=§cUnknown command: %s. Use '/au help' for a list of commands.
+command.autumn.unknown=§f[§6A§f] §cUnknown command: %s. Use '/au help' for a list of commands.
 command.autumn.togglebossbar.on=§f[§6A§f] §aBoss bar enabled
 command.autumn.togglebossbar.off=§f[§6A§f] §cBoss bar disabled
 command.autumn.reloadcrafthelper.success=§f[§6A§f] §fCraftHelper items reloaded successfully.
@@ -14,6 +14,8 @@ command.autumn.help.title=§6=== AutumnMod Commands ===
 command.autumn.help.togglebossbar=§e/au ToggleBossBar §f- Toggle Boss Bar visibility
 command.autumn.help.togglecrafthelper=§e/au ToggleCraftHelper §f- Toggle CraftHelper HUD
 command.autumn.help.toggleitemalert=§e/au ToggleItemAlert §f- Toggle item detection alerts
+command.autumn.help.toggleinventorycenter=§e/au ToggleInventoryCenter §f- Toggle Inventory Center
+command.autumn.help.toggletype=§e/au ToggleType §f- Toggle UHC Helper`s mode
 command.autumn.help.reloadcrafthelper=§e/au ReloadCraftHelper §f- Reload CraftHelper item config
 command.autumn.help.standalone=§6--- Quick Play Commands ---
 command.autumn.help.quickplay=§eQuick Play Commands:
@@ -25,10 +27,14 @@ command.autumn.help.4v4=§e/4v4 §f- Join Bedwars 4v4 mode
 command.autumn.help.solo=§e/solo §f- Join UHC Solo mode
 command.autumn.help.teams=§e/teams §f- Join UHC Teams mode
 command.autumn.help.footer=§6====================
-command.togglebossbar.on=§aBoss bar enabled
-command.togglebossbar.off=§cBoss bar disabled
+command.togglebossbar.on=§f[§6A§f] §aBoss bar enabled
+command.togglebossbar.off=§f[§6A§f] §cBoss bar disabled
 command.autumn.lang.success=§f[§6A§f] §aLanguage switched to %s
-command.autumn.lang.invalid=§cInvalid language: %s. Use 'en' or 'cn'.
+command.autumn.lang.invalid=§f[§6A§f] §cInvalid language: %s. Use 'en' or 'cn'.
+command.autumn.toggleinventorycenter.on=§f[§6A§f] §aInventory centering enabled
+command.autumn.toggleinventorycenter.off=§f[§6A§f] §cInventory centering disabled
+command.autumn.toggletype.fixed=§f[§6A§f] §fUHC Craft helper toggled to fixed mode.
+command.autumn.toggletype.dynamic=§f[§6A§f] §fUHC Craft helper toggled to dynamic mode.
 
 # ItemChecker
 itemchecker.alert=§f[§6A§f] §c%s§7 has %s%s%s §f(%sm)

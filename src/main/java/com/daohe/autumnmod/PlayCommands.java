@@ -1,4 +1,4 @@
-package com.daohe;
+package com.daohe.autumnmod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.command.CommandBase;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PlayCommands extends CommandBase {
-    // 定义对应游戏模式的/play命令
+    // 定义对应游戏模式
     private static final Map<String, String> COMMAND_MAP = new HashMap<String, String>() {{
         put("1s", "/play bedwars_eight_one");
         put("2s", "/play bedwars_eight_two");
@@ -35,13 +35,13 @@ public class PlayCommands extends CommandBase {
 
     // 定义游戏模式颜色代码
     private static final Map<String, String> GAME_COLORS = new HashMap<String, String>() {{
-        put("1s", "§c");
-        put("2s", "§c");
-        put("3s", "§c");
-        put("4s", "§c");
-        put("4v4", "§c");
-        put("solo", "§6");
-        put("teams", "§6");
+        put("1s", "§c§n");
+        put("2s", "§c§n");
+        put("3s", "§c§n");
+        put("4s", "§c§n");
+        put("4v4", "§c§n");
+        put("solo", "§6§n");
+        put("teams", "§6§n");
     }};
 
     private final String commandName;
@@ -60,7 +60,6 @@ public class PlayCommands extends CommandBase {
         return "/" + commandName;
     }
 
-    // 执行/play命令并显示提示
     @Override
     public void processCommand(ICommandSender sender, String[] args) {
         if (!(sender instanceof EntityPlayer)) return;
@@ -70,7 +69,7 @@ public class PlayCommands extends CommandBase {
             Minecraft.getMinecraft().thePlayer.sendChatMessage(playCommand);
             String gameName = GAME_NAMES.get(commandName);
             String gameColor = GAME_COLORS.get(commandName);
-            String message = String.format("§dSeeding You to a game of %s%s", gameColor, gameName);
+            String message = String.format("§f[§6A§f] §dSending you to a game of %s%s", gameColor, gameName);
             Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(message));
         }
     }
@@ -85,7 +84,6 @@ public class PlayCommands extends CommandBase {
         return 0;
     }
 
-    // 注册所有命令
     public static void registerCommands() {
         for (String command : COMMAND_MAP.keySet()) {
             ClientCommandHandler.instance.registerCommand(new PlayCommands(command));

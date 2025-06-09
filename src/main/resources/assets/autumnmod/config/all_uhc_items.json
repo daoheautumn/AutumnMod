@@ -1,0 +1,2193 @@
+[
+  {
+    "WARNING": "DO NOT TOUCH THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING",
+    "display_name": "debug",
+    "item": "minecraft:command_block",
+    "count": 64,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "true",
+    "internal_autocraftitem": "",
+    "ingredients": [
+      {
+        "item": "minecraft:command_block",
+        "count": 64,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Apprentice Helmet",
+    "item": "minecraft:iron_helmet",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:1001}}",
+    "enchant": "true",
+    "internal_autocraftitem": "APPRENTICE_HELMET",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 5,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:redstone_torch",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Apprentice Sword",
+    "item": "minecraft:iron_sword",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:1002}}",
+    "enchant": "true",
+    "internal_autocraftitem": "APPRENTICE_SWORD",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:redstone_block",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Apprentice Bow",
+    "item": "minecraft:bow",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:1003}}",
+    "enchant": "true",
+    "internal_autocraftitem": "APPRENTICE_BOW",
+    "ingredients": [
+      {
+        "item": "minecraft:redstone_torch",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:string",
+        "count": 3,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Master's Compass",
+    "item": "minecraft:compass",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:1004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "MASTERS_COMPASS",
+    "ingredients": [
+      {
+        "item": "minecraft:redstone",
+        "count": 7,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:compass",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:redstone_torch",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Vorpal Sword",
+    "item": "minecraft:iron_sword",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:2001}}",
+    "enchant": "true",
+    "internal_autocraftitem": "VORPAL_SWORD",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bone",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Book of Sharpening",
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{StoredEnchantments:[{id:16,lvl:1}]}",
+    "enchant": "",
+    "internal_autocraftitem": "SHARP_ONE_BOOK",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:paper",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:flint",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Book of Power",
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{StoredEnchantments:[{id:48,lvl:1}]}",
+    "enchant": "",
+    "internal_autocraftitem": "POWER_ONE_BOOK",
+    "ingredients": [
+      {
+        "item": "minecraft:bone",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:paper",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:flint",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Dragon Sword",
+    "item": "minecraft:diamond_sword",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:2004}}",
+    "enchant": "",
+    "internal_autocraftitem": "DRAGON_SWORD",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:obsidian",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Leather Economy",
+    "item": "minecraft:leather",
+    "count": 8,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "EIGHT_LEATHER",
+    "ingredients": [
+      {
+        "item": "minecraft:leather",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:stick",
+        "count": 6,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Book of Protection",
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{StoredEnchantments: [{lvl: 1s, id: 0s}], ExtraAttributes: {UHCid: 3002L}}",
+    "enchant": "",
+    "internal_autocraftitem": "PROT_BOOK",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:paper",
+        "count": 3,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Artemis' Book",
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{StoredEnchantments: [{lvl: 1s, id: 4s}], ExtraAttributes: {UHCid: 3003L}}",
+    "enchant": "",
+    "internal_autocraftitem": "PROJ_PROT_BOOK",
+    "ingredients": [
+      {
+        "item": "minecraft:arrow",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:paper",
+        "count": 3,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Dragon Armor",
+    "item": "minecraft:diamond_chestplate",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:3004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "DRAGON_ARMOR",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_chestplate",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:magma_cream",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:anvil",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:obsidian",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Dust of Light",
+    "item": "minecraft:glowstone_dust",
+    "count": 8,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "EIGHT_GLOWSTONE",
+    "ingredients": [
+      {
+        "item": "minecraft:redstone",
+        "count": 8,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:flint_and_steel",
+        "count": 1,
+        "damage": -1
+      }
+    ]
+  },
+  {
+    "display_name": "Brewing Artifact",
+    "item": "minecraft:nether_wart",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "NETHER_WART",
+    "ingredients": [
+      {
+        "item": "minecraft:fermented_spider_eye",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "count": 4,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Nectar",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:200,Id:10b,Amplifier:1b}],ExtraAttributes:{UHCid:4003L}}",
+    "enchant": "",
+    "internal_autocraftitem": "REGEN_POTION",
+    "ingredients": [
+      {
+        "item": "minecraft:melon",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Flaming Artifact",
+    "item": "minecraft:blaze_rod",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "BLAZE_ROD",
+    "ingredients": [
+      {
+        "item": "minecraft:stained_glass",
+        "count": 6,
+        "damage": 1
+      },
+      {
+        "item": "minecraft:lava_bucket",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:fireworks",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Delicious Meal",
+    "item": "minecraft:cooked_beef",
+    "meal": "true",
+    "count": 10,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "EIGHT_STEAKS",
+    "ingredients": [
+      {
+        "item": "minecraft:beef",
+        "count": 8,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Potion of Toughness",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ench: [{lvl: 1s, id: 34s}], CustomPotionEffects: [{Ambient: 1b, Duration: 2400, Id: 11b, Amplifier: 1b}], ExtraAttributes: {UHCid: 5002L}}",
+    "enchant": "",
+    "internal_autocraftitem": "RESIST_POT",
+    "ingredients": [
+      {
+        "item": "minecraft:snow",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:slime_ball",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Spiked Armor",
+    "item": "minecraft:leather_chestplate",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ench:[{lvl:5s,id:0s},{lvl:10s,id:34s},{lvl:1s,id:7s}],Unbreakable:1b,display:{color:6717235,Name:\"§aSpiked Armor\"},ExtraAttributes:{UHCid:5003L}}",
+    "enchant": "true",
+    "internal_autocraftitem": "GREEN_ARMOR",
+    "ingredients": [
+      {
+        "item": "minecraft:leather_chestplate",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:cactus",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:waterlily",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Seven-league Boots",
+    "item": "minecraft:diamond_boots",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:5004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "SEVEN_LEAGUE_BOOTS",
+    "ingredients": [
+      {
+        "item": "minecraft:feather",
+        "count": 6,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond_boots",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Iron Pack",
+    "item": "minecraft:iron_ingot",
+    "count": 10,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "IRON_INGOTS",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ore",
+        "count": 8,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Obsidian",
+    "item": "minecraft:obsidian",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "OBSIDIAN",
+    "ingredients": [
+      {
+        "item": "minecraft:water_bucket",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:lava_bucket",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Tarnhelm",
+    "item": "minecraft:diamond_helmet",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:6003}}",
+    "enchant": "true",
+    "internal_autocraftitem": "TARNHELM",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond",
+        "count": 4,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:redstone_block",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Philosopher's Pickaxe",
+    "item": "minecraft:diamond_pickaxe",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:6004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "PHILOSOPHER_PICK",
+    "ingredients": [
+      {
+        "item": "minecraft:stick",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_ore",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:gold_ore",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:lapis_block",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Enlightening Pack",
+    "item": "minecraft:experience_bottle",
+    "count": 8,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "ENCHANT_BOTTLES",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:redstone_block",
+        "count": 4,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Light Anvil",
+    "item": "minecraft:anvil",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "LIGHT_ANVIL",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 6,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_block",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Light Enchantment Table",
+    "item": "minecraft:enchanting_table",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "LIGHT_ENCHANTING",
+    "ingredients": [
+      {
+        "item": "minecraft:obsidian",
+        "count": 4,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bookshelf",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Book of Thoth",
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{StoredEnchantments:[{lvl:3s,id:0s},{lvl:2s,id:16s},{lvl:2s,id:48s},{lvl:1s,id:49s},{lvl:1s,id:20s}],ExtraAttributes:{UHCid:7004L}}",
+    "enchant": "",
+    "internal_autocraftitem": "BOOK_OF_THOTH",
+    "ingredients": [
+      {
+        "item": "minecraft:fire_charge",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:ender_eye",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:paper",
+        "count": 3,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Eve's Temptation",
+    "item": "minecraft:apple",
+    "count": 2,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "APPLES",
+    "ingredients": [
+      {
+        "item": "minecraft:apple",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:dye",
+        "count": 1,
+        "damage": 15
+      }
+    ]
+  },
+  {
+    "display_name": "Healing Fruit",
+    "item": "minecraft:melon",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "MELON",
+    "ingredients": [
+      {
+        "item": "minecraft:dye",
+        "count": 4,
+        "damage": 15
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "count": 4,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:apple",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Holy Water",
+    "item": "minecraft:potion",
+    "holy": true,
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:2400,Id:22b,Amplifier:3b}],ExtraAttributes:{UHCid:8003L}}",
+    "enchant": "",
+    "internal_autocraftitem": "ABSORPTION_POT",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:redstone_block",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:record_ward",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Light Apple",
+    "item": "minecraft:golden_apple",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "LIGHT_APPLE",
+    "ingredients": [
+      {
+        "item": "minecraft:apple",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 4,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Golden Head",
+    "item": "minecraft:skull",
+    "ghead": true,
+    "count": 1,
+    "damage": 3,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "GOLDEN_HEAD",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 8,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Pandora's Box",
+    "item": "minecraft:chest",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:9002}}",
+    "enchant": "",
+    "internal_autocraftitem": "PANDORAS_BOX",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:chest",
+        "count": 8,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Panacea",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:1200,Id:22b,Amplifier:1b}],ExtraAttributes:{UHCid:9003L}}",
+    "enchant": "",
+    "internal_autocraftitem": "PANACEA",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 2,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:speckled_melon",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Cupid's Bow",
+    "item": "minecraft:bow",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:9004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "CUPIDS_BOW",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 2,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bow",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:lava_bucket",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Arrow Economy",
+    "item": "minecraft:arrow",
+    "count": 20,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "ARROWS_ECONOMY",
+    "ingredients": [
+      {
+        "item": "minecraft:flint",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:stick",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:feather",
+        "count": 3,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Saddle",
+    "item": "minecraft:saddle",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:10002}}",
+    "enchant": "",
+    "internal_autocraftitem": "SADDLE",
+    "ingredients": [
+      {
+        "item": "minecraft:leather",
+        "count": 4,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:string",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Potion of Velocity",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 16384,
+    "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:240,Id:1b,Amplifier:2b}],display:{Name:\"§aPotion of Velocity§7\"},ExtraAttributes:{UHCid:10003L}}",
+    "enchant": "",
+    "internal_autocraftitem": "POTION_OF_VELOCITY",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:sugar",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:dye",
+        "count": 1,
+        "damage": 3
+      }
+    ]
+  },
+  {
+    "display_name": "Fenrir",
+    "item": "minecraft:spawn_egg",
+    "count": 1,
+    "damage": 95,
+    "nbt": "{ExtraAttributes:{UHCid:10004}}",
+    "enchant": "",
+    "internal_autocraftitem": "FENRIR",
+    "ingredients": [
+      {
+        "item": "minecraft:leather",
+        "count": 6,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bone",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Forge",
+    "item": "minecraft:furnace",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:11001}}",
+    "enchant": "true",
+    "internal_autocraftitem": "FORGE",
+    "ingredients": [
+      {
+        "item": "minecraft:cobblestone",
+        "count": 8,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:coal_block",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Quick Pick",
+    "item": "minecraft:iron_pickaxe",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:11002}}",
+    "enchant": "true",
+    "internal_autocraftitem": "EFFICIENCY_PICKAXE",
+    "ingredients": [
+      {
+        "item": "minecraft:stick",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_ore",
+        "count": 3,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Lumberjack's Axe",
+    "item": "minecraft:iron_axe",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:11003}}",
+    "enchant": "",
+    "internal_autocraftitem": "LUMBERJACK_AXE",
+    "ingredients": [
+      {
+        "item": "minecraft:stick",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:flint",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Enhancement Book",
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:11004}}",
+    "enchant": "",
+    "internal_autocraftitem": "ENHANCEMENT_BOOK",
+    "ingredients": [
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bookshelf",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_pickaxe",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:iron_axe",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:enchanting_table",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Gold Pack",
+    "item": "minecraft:gold_ingot",
+    "count": 10,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "GOLD_PACK",
+    "ingredients": [
+      {
+        "item": "minecraft:gold_ore",
+        "count": 8,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Sugar Rush",
+    "item": "minecraft:reeds",
+    "count": 4,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "SUGAR_CANE",
+    "ingredients": [
+      {
+        "item": "minecraft:sugar",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:sapling",
+        "count": 1,
+        "damage": -1
+      }
+    ]
+  },
+  {
+    "display_name": "Backpack",
+    "item": "minecraft:skull",
+    "backpack": true,
+    "count": 1,
+    "damage": 3,
+    "nbt": "{display:{Lore:[\"§2\",\"§7use this handy backpack\"]}}",
+    "enchant": "",
+    "internal_autocraftitem": "BACKPACK",
+    "ingredients": [
+      {
+        "item": "minecraft:chest",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:leather",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:stick",
+        "count": 6,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Fusion Armor",
+    "item": "minecraft:diamond_chestplate",
+    "fusion": "true",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:12004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "FUSION_ARMOR",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_boots",
+        "count": 5,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Lucky Shears",
+    "item": "minecraft:shears",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:12004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "LUCKY_SHEARS",
+    "ingredients": [
+      {
+        "item": "minecraft:shears",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:leaves",
+        "count": 8,
+        "damage": -1
+      }
+    ]
+  },
+  {
+    "display_name": "The Deep",
+    "item": "minecraft:fishing_rod",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:13002}}",
+    "enchant": "true",
+    "internal_autocraftitem": "THE_DEEP",
+    "ingredients": [
+      {
+        "item": "minecraft:bone",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:string",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Swan Song",
+    "item": "minecraft:enchanted_book",
+    "swan": true,
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:13901}}",
+    "enchant": "",
+    "internal_autocraftitem": "SWAN_SONG",
+    "ingredients": [
+      {
+        "item": "minecraft:record_13",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:paper",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:feather",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Treasure of El Dorado",
+    "item": "minecraft:filled_map",
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "EL_DORADO",
+    "ingredients": [
+      {
+        "item": "minecraft:wool",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:wool",
+        "count": 1,
+        "damage": 14
+      },
+      {
+        "item": "minecraft:string",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:chest",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Artemis' Bow",
+    "item": "minecraft:bow",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50001}}",
+    "enchant": "true",
+    "internal_autocraftitem": "ARTEMIS_BOW",
+    "ingredients": [
+      {
+        "item": "minecraft:feather",
+        "count": 6,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bow",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:ender_eye",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Flask of Ichor",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 16384,
+    "nbt": "{CustomPotionEffects:[{Id:7b,Amplifier:2b,Duration:1,Ambient:1b}],ExtraAttributes:{UHCid:50002L}}",
+    "enchant": "",
+    "internal_autocraftitem": "FLASK_OF_ICHOR",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:dye",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:brown_mushroom",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Exodus",
+    "item": "minecraft:diamond_helmet",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50003}}",
+    "enchant": "true",
+    "internal_autocraftitem": "EXODUS",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond",
+        "count": 5,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:golden_carrot",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Hide of Leviathan",
+    "item": "minecraft:diamond_leggings",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50004}}",
+    "enchant": "true",
+    "internal_autocraftitem": "HIDE_OF_LEVIATHAN",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_leggings",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:lapis_block",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:waterlily",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Tablets of Destiny",
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{StoredEnchantments:[{id:16s,lvl:3s},{id:48s,lvl:3s},{id:0s,lvl:4s},{id:20s,lvl:1s}],ExtraAttributes:{UHCid:50005L}}",
+    "enchant": "",
+    "internal_autocraftitem": "TABLETS_OF_DESTINY",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:bow",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:writable_book",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:magma_cream",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 3,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Axe of Perun",
+    "item": "minecraft:diamond_axe",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50006}}",
+    "enchant": "",
+    "internal_autocraftitem": "AXE_OF_PERUN",
+    "ingredients": [
+      {
+        "item": "minecraft:stick",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:tnt",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:fire_charge",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Excalibur",
+    "item": "minecraft:diamond_sword",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50007}}",
+    "enchant": "true",
+    "internal_autocraftitem": "EXCALIBUR",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:tnt",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:fire_charge",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:soul_sand",
+        "count": 6,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Anduril",
+    "item": "minecraft:iron_sword",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50008}}",
+    "enchant": "true",
+    "internal_autocraftitem": "ANDURIL",
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_block",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:feather",
+        "count": 6,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Death's Scythe",
+    "item": "minecraft:iron_hoe",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50009}}",
+    "enchant": "",
+    "internal_autocraftitem": "DEATHS_SCYTHE",
+    "ingredients": [
+      {
+        "item": "minecraft:bone",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:clock",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 2,
+        "damage": 3
+      }
+    ]
+  },
+  {
+    "display_name": "Chest of Fate",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:2400,Id:22b,Amplifier:3b}],ExtraAttributes:{UHCid:50010}}",
+    "enchant": "",
+    "internal_autocraftitem": "CHEST_OF_FATE",
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "count": 8,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      }
+    ]
+  },
+  {
+    "display_name": "Cornucopia",
+    "item": "minecraft:golden_carrot",
+    "count": 3,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50011}}",
+    "enchant": "",
+    "internal_autocraftitem": "CORNUCOPIA",
+    "ingredients": [
+      {
+        "item": "minecraft:golden_apple",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:carrot",
+        "count": 8,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Essence of Yggdrasil",
+    "item": "minecraft:experience_bottle",
+    "count": 32,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "",
+    "internal_autocraftitem": "ESSENCE_OF_YGGDRASIL",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:glowstone",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:leaves",
+        "count": 4,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:enchanting_table",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:redstone_block",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Voidbox",
+    "item": "minecraft:ender_chest",
+    "count": 2,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50013}}",
+    "enchant": "",
+    "internal_autocraftitem": "VOIDBOX",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:glass",
+        "count": 4,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:obsidian",
+        "count": 4,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Deus Ex Machina",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{CustomPotionEffects:[{Id:11b,Amplifier:4b,Duration:300,Ambient:1b}],ExtraAttributes:{UHCid:50014L}}",
+    "enchant": "",
+    "internal_autocraftitem": "DEUS_EX_MACHINA",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Dice of God",
+    "item": "minecraft:end_portal_frame",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50015}}",
+    "enchant": "",
+    "internal_autocraftitem": "DICE_OF_GOD",
+    "ingredients": [
+      {
+        "item": "minecraft:mossy_cobblestone",
+        "count": 7,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:jukebox",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      }
+    ]
+  },
+  {
+    "display_name": "King's Rod",
+    "item": "minecraft:fishing_rod",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50016}}",
+    "enchant": "true",
+    "internal_autocraftitem": "KINGS_ROD",
+    "ingredients": [
+      {
+        "item": "minecraft:fishing_rod",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:waterlily",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:compass",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:water_bucket",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Daredevil",
+    "item": "minecraft:spawn_egg",
+    "count": 1,
+    "damage": 100,
+    "nbt": "{ExtraAttributes:{UHCid:50017}}",
+    "enchant": "",
+    "internal_autocraftitem": "DAREDEVIL",
+    "ingredients": [
+      {
+        "item": "minecraft:bone",
+        "count": 5,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:saddle",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Flask of Cleansing",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 16384,
+    "nbt": "{CustomPotionEffects:[{Id:18b,Amplifier:1b,Duration:100,Ambient:1b}],ExtraAttributes:{UHCid:50018L}}",
+    "enchant": "",
+    "internal_autocraftitem": "FLASK_OF_CLEANSING",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:milk_bucket",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Shoes of Vidar",
+    "item": "minecraft:diamond_boots",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50019}}",
+    "enchant": "true",
+    "internal_autocraftitem": "SHOES_OF_VIDAR",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_boots",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:fishing_rod",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:potion",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:fish",
+        "count": 1,
+        "damage": 3
+      }
+    ]
+  },
+  {
+    "display_name": "Potion of Vitality",
+    "item": "minecraft:potion",
+    "count": 1,
+    "damage": 16384,
+    "nbt": "{CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:240,Ambient:1b},{Id:10b,Amplifier:1b,Duration:160,Ambient:1b},{Id:18b,Amplifier:1b,Duration:240,Ambient:1b},{Id:20b,Amplifier:1b,Duration:120,Ambient:1b}],ExtraAttributes:{UHCid:50020L}}",
+    "enchant": "",
+    "internal_autocraftitem": "POTION_OF_VITALITY",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Miner's Blessing",
+    "item": "minecraft:diamond_pickaxe",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50021}}",
+    "enchant": "",
+    "internal_autocraftitem": "MINERS_BLESSING",
+    "ingredients": [
+      {
+        "item": "minecraft:bookshelf",
+        "count": 3,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 4,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "damage": -1
+      }
+    ]
+  },
+  {
+    "display_name": "Ambrosia",
+    "item": "minecraft:glowstone_dust",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50022}}",
+    "enchant": "true",
+    "internal_autocraftitem": "AMBROSIA",
+    "ingredients": [
+      {
+        "item": "minecraft:glowstone",
+        "count": 5,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:ghast_tear",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 1
+      }
+    ]
+  },
+  {
+    "display_name": "Bloodlust",
+    "item": "minecraft:diamond_sword",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50023}}",
+    "enchant": "true",
+    "internal_autocraftitem": "BLOODLUST",
+    "ingredients": [
+      {
+        "item": "minecraft:redstone_block",
+        "count": 6,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 1,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Modular Bow",
+    "item": "minecraft:bow",
+    "modular": true,
+    "count": 1,
+    "damage": 0,
+    "nbt": "",
+    "enchant": "true",
+    "internal_autocraftitem": "MODULAR_BOW",
+    "ingredients": [
+      {
+        "item": "minecraft:bow",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:clock",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:slime_ball",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Expert Seal",
+    "item": "minecraft:nether_star",
+    "count": 6,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50025}}",
+    "enchant": "",
+    "internal_autocraftitem": "EXPERT_SEAL",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_block",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:gold_block",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_block",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 4,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Hermes' Boots",
+    "item": "minecraft:diamond_boots",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50026}}",
+    "enchant": "true",
+    "internal_autocraftitem": "HERMES_BOOTS",
+    "ingredients": [
+      {
+        "item": "minecraft:skull",
+        "count": 1,
+        "damage": 3
+      },
+      {
+        "item": "minecraft:diamond_boots",
+        "count": 1,
+        "damage": -1
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:feather",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Barbarian Chestplate",
+    "item": "minecraft:diamond_chestplate",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50027}}",
+    "enchant": "true",
+    "internal_autocraftitem": "BARBARIAN_CHESTPLATE",
+    "ingredients": [
+      {
+        "item": "minecraft:potion",
+        "count": 1,
+        "damage": 8265
+      },
+      {
+        "item": "minecraft:iron_block",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond_chestplate",
+        "count": 1,
+        "damage": -1
+      }
+    ]
+  },
+  {
+    "display_name": "Fate's Call",
+    "item": "minecraft:flower_pot",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50028}}",
+    "enchant": "",
+    "internal_autocraftitem": "ANGELS_DESCENT",
+    "ingredients": [
+      {
+        "item": "minecraft:firework_charge",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:redstone_lamp",
+        "count": 4,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "The Mark",
+    "item": "minecraft:snowball",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50029}}",
+    "enchant": "",
+    "internal_autocraftitem": "THE_MARK",
+    "ingredients": [
+      {
+        "item": "minecraft:clock",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:snow",
+        "count": 4,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 2,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "display_name": "Warlock Pants",
+    "item": "minecraft:chainmail_leggings",
+    "count": 1,
+    "damage": 0,
+    "nbt": "{ExtraAttributes:{UHCid:50030}}",
+    "enchant": "",
+    "internal_autocraftitem": "WARLOCK_PANTS",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_bars",
+        "count": 5,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 1,
+        "damage": 0
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2,
+        "damage": 0
+      }
+    ]
+  }
+]

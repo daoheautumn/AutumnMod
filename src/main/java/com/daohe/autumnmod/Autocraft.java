@@ -1,4 +1,4 @@
-package com.daohe;
+package com.daohe.autumnmod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.settings.KeyBinding;

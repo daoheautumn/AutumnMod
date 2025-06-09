@@ -3,9 +3,10 @@
     "modid": "autumnmod",
     "name": "AutumnMod",
     "description": "https://space.bilibili.com/511496730",
+    "url": "https://github.com/daoheautumn/AutumnMod",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "authorList": ["Daohe"],
+    "authorList": ["daoheautumn"],
     "clientSideOnly": true
   }
 ]

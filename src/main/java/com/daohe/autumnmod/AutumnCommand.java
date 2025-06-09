@@ -1,4 +1,4 @@
-package com.daohe;
+package com.daohe.autumnmod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.command.CommandBase;
@@ -30,7 +30,6 @@ public class AutumnCommand extends CommandBase {
         return LanguageLoader.format("command.autumn.usage");
     }
 
-    // 处理 /au 子命令
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
         if (args.length == 0) {
@@ -73,6 +72,25 @@ public class AutumnCommand extends CommandBase {
                 AutumnMod.saveConfig();
                 break;
 
+            case "toggleinventorycenter":
+                AutumnMod.isInventoryCenterEnabled = !AutumnMod.isInventoryCenterEnabled;
+                String inventoryCenterMessage = AutumnMod.isInventoryCenterEnabled ?
+                        LanguageLoader.format("command.autumn.toggleinventorycenter.on") :
+                        LanguageLoader.format("command.autumn.toggleinventorycenter.off");
+                sender.addChatMessage(new ChatComponentText(inventoryCenterMessage));
+                AutumnMod.saveConfig();
+                break;
+
+            case "toggletype":
+                AutumnMod.isDynamicCraftMode = !AutumnMod.isDynamicCraftMode;
+                String modeMessage = AutumnMod.isDynamicCraftMode ?
+                        LanguageLoader.format("command.autumn.toggletype.dynamic") :
+                        LanguageLoader.format("command.autumn.toggletype.fixed");
+                sender.addChatMessage(new ChatComponentText(modeMessage));
+                craftHelper.reloadItems();
+                AutumnMod.saveConfig();
+                break;
+
             case "lang":
                 if (args.length != 2) {
                     throw new CommandException("Usage: /au lang <en/cn>");
@@ -96,23 +114,23 @@ public class AutumnCommand extends CommandBase {
         }
     }
 
-    // tab自动补全
     @Override
     public List<String> addTabCompletionOptions(ICommandSender sender, String[] args, net.minecraft.util.BlockPos pos) {
         if (args.length == 1) {
-            return getListOfStringsMatchingLastWord(args, "togglebossbar", "reloadcrafthelper", "togglecrafthelper", "toggleitemalert", "lang", "help");
+            return getListOfStringsMatchingLastWord(args, "togglebossbar", "reloadcrafthelper", "togglecrafthelper", "toggleitemalert", "toggleinventorycenter", "toggletype", "lang", "help");
         } else if (args.length == 2 && "lang".equalsIgnoreCase(args[0])) {
             return getListOfStringsMatchingLastWord(args, "en", "cn");
         }
         return null;
     }
 
-    // help菜单
     private void sendHelpMessage(ICommandSender sender) {
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.title")));
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.togglebossbar")));
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.togglecrafthelper")));
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.toggleitemalert")));
+        sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.toggleinventorycenter")));
+        sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.toggletype")));
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.reloadcrafthelper")));
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.standalone")));
         sender.addChatMessage(new ChatComponentText(LanguageLoader.format("command.autumn.help.quickplay")));

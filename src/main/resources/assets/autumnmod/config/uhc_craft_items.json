@@ -5,9 +5,10 @@
         "item": "minecraft:iron_pickaxe",
         "display_name": "效率铁镐",
         "command": "/internal_autocraftitem EFFICIENCY_PICKAXE",
-        "nbt": "",
+        "nbt": "{ExtraAttributes:{UHCid:11002}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:furnace",
@@ -15,7 +16,8 @@
         "command": "/internal_autocraftitem FORGE",
         "nbt": "",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:iron_ingot",
@@ -23,7 +25,8 @@
         "command": "/internal_autocraftitem IRON_INGOTS",
         "nbt": "",
         "count": 10,
-        "Enchant": "1"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:gold_ingot",
@@ -31,15 +34,8 @@
         "command": "/internal_autocraftitem GOLD_PACK",
         "nbt": "",
         "count": 10,
-        "Enchant": "false"
-      },
-      {
-        "item": "minecraft:iron_sword",
-        "display_name": "学徒之剑",
-        "command": "/internal_autocraftitem APPRENTICE_SWORD",
-        "nbt": "{ExtraAttributes:{UHCid:1002}}",
-        "count": 1,
-        "Enchant": "true"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:iron_helmet",
@@ -47,7 +43,8 @@
         "command": "/internal_autocraftitem APPRENTICE_HELMET",
         "nbt": "{ExtraAttributes:{UHCid:1001}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_helmet",
@@ -55,7 +52,17 @@
         "command": "/internal_autocraftitem TARNHELM",
         "nbt": "{ExtraAttributes:{UHCid:6003}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:cooked_beef",
+        "display_name": "美味佳肴 >:3",
+        "command": "/internal_autocraftitem EIGHT_STEAKS",
+        "nbt": "{ExtraAttributes:{UHCid:1002}}",
+        "count": 10,
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:golden_apple",
@@ -63,15 +70,18 @@
         "command": "/internal_autocraftitem LIGHT_APPLE",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
-        "item": "minecraft:blaze_rod",
-        "display_name": "烈焰棒",
-        "command": "/internal_autocraftitem BLAZE_ROD",
+        "item": "minecraft:skull",
+        "display_name": "金头",
+        "ghead": true,
+        "command": "/internal_autocraftitem GOLDEN_HEAD",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 3
       },
       {
         "item": "minecraft:obsidian",
@@ -79,7 +89,8 @@
         "command": "/internal_autocraftitem OBSIDIAN",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_sword",
@@ -87,15 +98,17 @@
         "command": "/internal_autocraftitem DRAGON_SWORD",
         "nbt": "{ExtraAttributes:{UHCid:2004}}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
-        "item": "minecraft:iron_sword",
-        "display_name": "安都瑞尔之剑",
-        "command": "/internal_autocraftitem ANDURIL",
-        "nbt": "{ExtraAttributes:{UHCid:50008}}",
+        "item": "minecraft:diamond_pickaxe",
+        "display_name": "哲人镐",
+        "command": "/internal_autocraftitem PHILOSOPHER_PICK",
+        "nbt": "{ExtraAttributes:{UHCid:6004}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:anvil",
@@ -103,7 +116,8 @@
         "command": "/internal_autocraftitem LIGHT_ANVIL",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:enchanted_book",
@@ -111,7 +125,8 @@
         "command": "/internal_autocraftitem SHARP_ONE_BOOK",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:enchanted_book",
@@ -119,7 +134,8 @@
         "command": "/internal_autocraftitem PROT_BOOK",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:experience_bottle",
@@ -127,19 +143,22 @@
         "command": "/internal_autocraftitem ENCHANT_BOTTLES",
         "nbt": "",
         "count": 8,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       }
     ]
   },
   {
     "items": [
       {
-        "item": "minecraft:chest",
+        "item": "minecraft:skull",
         "display_name": "背包",
+        "backpack": true,
         "command": "/internal_autocraftitem BACKPACK",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 3
       },
       {
         "item": "minecraft:iron_sword",
@@ -147,15 +166,26 @@
         "command": "/internal_autocraftitem VORPAL_SWORD",
         "nbt": "",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
-        "item": "minecraft:nether_wart",
-        "display_name": "炼药制品",
-        "command": "/internal_autocraftitem NETHER_WART",
+        "item": "minecraft:apple",
+        "display_name": "复制苹果",
+        "command": "/internal_autocraftitem APPLES",
         "nbt": "",
+        "count": 2,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:compass",
+        "display_name": "大师罗盘",
+        "command": "/internal_autocraftitem MASTERS_COMPASS",
+        "nbt": "{ExtraAttributes:{UHCid:1004}}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:glowstone_dust",
@@ -163,31 +193,17 @@
         "command": "/internal_autocraftitem EIGHT_GLOWSTONE",
         "nbt": "",
         "count": 8,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
-        "item": "minecraft:diamond_pickaxe",
-        "display_name": "哲人稿",
-        "command": "/internal_autocraftitem PHILOSOPHER_PICK",
-        "nbt": "{ExtraAttributes:{UHCid:6004}}",
-        "count": 1,
-        "Enchant": "true"
-      },
-      {
-        "item": "minecraft:golden_carrot",
-        "display_name": "丰饶之角",
-        "command": "/internal_autocraftitem CORNUCOPIA",
-        "nbt": "{ExtraAttributes:{UHCid:50011}}",
-        "count": 3,
-        "Enchant": "false"
-      },
-      {
-        "item": "minecraft:arrow",
-        "display_name": "经济弓箭",
-        "command": "/internal_autocraftitem ARROWS_ECONOMY",
+        "item": "minecraft:flower_pot",
+        "display_name": "命运的呼唤",
+        "command": "/internal_autocraftitem ANGELS_DESCENT",
         "nbt": "",
-        "count": 20,
-        "Enchant": "false"
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:bow",
@@ -195,15 +211,26 @@
         "command": "/internal_autocraftitem APPRENTICE_BOW",
         "nbt": "{ExtraAttributes:{UHCid:1003}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:arrow",
+        "display_name": "经济弓箭",
+        "command": "/internal_autocraftitem ARROWS_ECONOMY",
+        "nbt": "",
+        "count": 20,
+        "enchant": "false",
+        "damage": -1
       },
       {
         "item": "minecraft:potion",
         "display_name": "圣水",
         "command": "/internal_autocraftitem ABSORPTION_POT",
-        "nbt": "{ExtraAttributes:{UHCid:8003}}",
+        "nbt": "{ExtraAttributes:{UHCid:8003},overrideMeta:1b,CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:100,Ambient:1b}]}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:potion",
@@ -211,7 +238,17 @@
         "command": "/internal_autocraftitem POTION_OF_VELOCITY",
         "nbt": "{ExtraAttributes:{UHCid:10003}}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 16418
+      },
+      {
+        "item": "minecraft:bow",
+        "display_name": "变换弓",
+        "command": "/internal_autocraftitem MODULAR_BOW",
+        "nbt": "{display:{Lore:[\"§aCurrent Mode: §6Lighting§8 [1]\"]}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:spawn_egg",
@@ -219,15 +256,8 @@
         "command": "/internal_autocraftitem DAREDEVIL",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
-      },
-      {
-        "item": "minecraft:bow",
-        "display_name": "变换弓",
-        "command": "/internal_autocraftitem MODULAR_BOW",
-        "nbt": "",
-        "count": 1,
-        "Enchant": "true"
+        "enchant": "false",
+        "damage": 100
       },
       {
         "item": "minecraft:diamond_leggings",
@@ -235,15 +265,8 @@
         "command": "/internal_autocraftitem HIDE_OF_LEVIATHAN",
         "nbt": "{ExtraAttributes:{UHCid:50004}}",
         "count": 1,
-        "Enchant": "true"
-      },
-      {
-        "item": "minecraft:diamond_chestplate",
-        "display_name": "力量甲",
-        "command": "/internal_autocraftitem BARBARIAN_CHESTPLATE",
-        "nbt": "{ExtraAttributes:{UHCid:50027}}",
-        "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_boots",
@@ -251,7 +274,8 @@
         "command": "/internal_autocraftitem HERMES_BOOTS",
         "nbt": "{ExtraAttributes:{UHCid:50026}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_chestplate",
@@ -259,7 +283,17 @@
         "command": "/internal_autocraftitem DRAGON_ARMOR",
         "nbt": "{ExtraAttributes:{UHCid:3004}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond_chestplate",
+        "display_name": "力量甲",
+        "command": "/internal_autocraftitem BARBARIAN_CHESTPLATE",
+        "nbt": "{ExtraAttributes:{UHCid:50027}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
       }
     ]
   },
@@ -271,15 +305,9 @@
         "command": "/internal_autocraftitem FUSION_ARMOR",
         "nbt": "{ExtraAttributes:{UHCid:12004}}",
         "count": 1,
-        "Enchant": "true"
-      },
-      {
-        "item": "minecraft:diamond_helmet",
-        "display_name": "永生帽",
-        "command": "/internal_autocraftitem EXODUS",
-        "nbt": "{ExtraAttributes:{UHCid:50003}}",
-        "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0,
+        "fusion": true
       },
       {
         "item": "minecraft:diamond_boots",
@@ -287,7 +315,8 @@
         "command": "/internal_autocraftitem SEVEN_LEAGUE_BOOTS",
         "nbt": "{ExtraAttributes:{UHCid:5004}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_boots",
@@ -295,7 +324,8 @@
         "command": "/internal_autocraftitem SHOES_OF_VIDAR",
         "nbt": "{ExtraAttributes:{UHCid:50019}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:fishing_rod",
@@ -303,7 +333,17 @@
         "command": "/internal_autocraftitem KINGS_ROD",
         "nbt": "",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:diamond_helmet",
+        "display_name": "永生帽",
+        "command": "/internal_autocraftitem EXODUS",
+        "nbt": "{ExtraAttributes:{UHCid:50003}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_sword",
@@ -311,7 +351,8 @@
         "command": "/internal_autocraftitem BLOODLUST",
         "nbt": "{ExtraAttributes:{UHCid:50023}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_sword",
@@ -319,7 +360,8 @@
         "command": "/internal_autocraftitem EXCALIBUR",
         "nbt": "{ExtraAttributes:{UHCid:50007}}",
         "count": 1,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:diamond_axe",
@@ -327,7 +369,8 @@
         "command": "/internal_autocraftitem AXE_OF_PERUN",
         "nbt": "{ExtraAttributes:{UHCid:50006}}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:iron_hoe",
@@ -335,7 +378,8 @@
         "command": "/internal_autocraftitem DEATHS_SCYTHE",
         "nbt": "{ExtraAttributes:{UHCid:50009}}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:potion",
@@ -343,7 +387,17 @@
         "command": "/internal_autocraftitem FLASK_OF_CLEANSING",
         "nbt": "{ExtraAttributes:{UHCid:50018}}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 16424
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "瞬三",
+        "command": "/internal_autocraftitem FLASK_OF_ICHOR",
+        "nbt": "{ExtraAttributes:{UHCid:50002}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 16460
       },
       {
         "item": "minecraft:spawn_egg",
@@ -351,31 +405,26 @@
         "command": "/internal_autocraftitem FENRIR",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
-      },
-      {
-        "item": "minecraft:enchanted_book",
-        "display_name": "月神书",
-        "command": "/internal_autocraftitem BOOK_OF_THOTH",
-        "nbt": "{ExtraAttributes:{UHCid:7004}}",
-        "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 95
       },
       {
         "item": "minecraft:potion",
         "display_name": "无敌药",
         "command": "/internal_autocraftitem DEUS_EX_MACHINA",
-        "nbt": "{ExtraAttributes:{UHCid:50014}}",
+        "nbt": "{ExtraAttributes:{UHCid:50014},overrideMeta:1b,CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:100,Ambient:1b}]}",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:nether_star",
         "display_name": "大师卷轴",
         "command": "/internal_autocraftitem EXPERT_SEAL",
-        "nbt": "",
+        "nbt": "{ExtraAttributes:{UHCid:50025}}",
         "count": 6,
-        "Enchant": "true"
+        "enchant": "true",
+        "damage": 0
       },
       {
         "item": "minecraft:flower_pot",
@@ -383,7 +432,8 @@
         "command": "/internal_autocraftitem ANGELS_DESCENT",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:end_portal_frame",
@@ -391,19 +441,326 @@
         "command": "/internal_autocraftitem DICE_OF_GOD",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       }
     ]
   },
   {
     "items": [
       {
-        "item": "minecraft:air",
-        "display_name": "",
-        "command": "",
+        "item": "minecraft:enchanted_book",
+        "display_name": "Book of Power",
+        "command": "/internal_autocraftitem POWER_ONE_BOOK",
+        "nbt": "{StoredEnchantments:[{id:48,lvl:1}]}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:leather",
+        "display_name": "Leather Economy",
+        "command": "/internal_autocraftitem EIGHT_LEATHER",
+        "nbt": "",
+        "count": 8,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "Artemis' Book",
+        "command": "/internal_autocraftitem PROJ_PROT_BOOK",
+        "nbt": "{StoredEnchantments: [{lvl: 1s, id: 4s}], ExtraAttributes: {UHCid: 3003L}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "display_name": "Brewing Artifact",
+        "command": "/internal_autocraftitem NETHER_WART",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "Nectar",
+        "command": "/internal_autocraftitem REGEN_POTION",
+        "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:200,Id:10b,Amplifier:1b}],ExtraAttributes:{UHCid:4003L}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "Potion of Toughness",
+        "command": "/internal_autocraftitem RESIST_POT",
+        "nbt": "{ench: [{lvl: 1s, id: 34s}], CustomPotionEffects: [{Ambient: 1b, Duration: 2400, Id: 11b, Amplifier: 1b}], ExtraAttributes: {UHCid: 5002L}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:leather_chestplate",
+        "display_name": "Spiked Armor",
+        "command": "/internal_autocraftitem GREEN_ARMOR",
+        "nbt": "{ench:[{lvl:5s,id:0s},{lvl:10s,id:34s},{lvl:1s,id:7s}],Unbreakable:1b,display:{color:6717235,Name:\"§aSpiked Armor\"},ExtraAttributes:{UHCid:5003L}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:enchanting_table",
+        "display_name": "Light Enchantment Table",
+        "command": "/internal_autocraftitem LIGHT_ENCHANTING",
+        "nbt": "",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "Book of Thoth",
+        "command": "/internal_autocraftitem BOOK_OF_THOTH",
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:0s},{lvl:2s,id:16s},{lvl:2s,id:48s},{lvl:1s,id:49s},{lvl:1s,id:20s}],ExtraAttributes:{UHCid:7004L}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:melon",
+        "display_name": "Healing Fruit",
+        "command": "/internal_autocraftitem MELON",
+        "nbt": "",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "display_name": "烈焰棒",
+        "command": "/internal_autocraftitem BLAZE_ROD",
+        "nbt": "",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:chest",
+        "display_name": "Pandora's Box",
+        "command": "/internal_autocraftitem PANDORAS_BOX",
+        "nbt": "{ExtraAttributes:{UHCid:9002}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "Panacea",
+        "command": "/internal_autocraftitem PANACEA",
+        "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:1200,Id:22b,Amplifier:1b}],ExtraAttributes:{UHCid:9003L}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bow",
+        "display_name": "Cupid's Bow",
+        "command": "/internal_autocraftitem CUPIDS_BOW",
+        "nbt": "{ExtraAttributes:{UHCid:9004}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:saddle",
+        "display_name": "Saddle",
+        "command": "/internal_autocraftitem SADDLE",
+        "nbt": "{ExtraAttributes:{UHCid:10002}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_axe",
+        "display_name": "Lumberjack's Axe",
+        "command": "/internal_autocraftitem LUMBERJACK_AXE",
+        "nbt": "{ExtraAttributes:{UHCid:11003}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "Enhancement Book",
+        "command": "/internal_autocraftitem ENHANCEMENT_BOOK",
+        "nbt": "{ExtraAttributes:{UHCid:11004}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:reeds",
+        "display_name": "Sugar Rush",
+        "command": "/internal_autocraftitem SUGAR_CANE",
+        "nbt": "",
+        "count": 4,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:shears",
+        "display_name": "Lucky Shears",
+        "command": "/internal_autocraftitem LUCKY_SHEARS",
+        "nbt": "{ExtraAttributes:{UHCid:12004}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:fishing_rod",
+        "display_name": "The Deep",
+        "command": "/internal_autocraftitem THE_DEEP",
+        "nbt": "{ExtraAttributes:{UHCid:13002}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "Swan Song",
+        "command": "/internal_autocraftitem SWAN_SONG",
+        "nbt": "{ExtraAttributes:{UHCid:13901}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:filled_map",
+        "display_name": "Treasure of El Dorado",
+        "command": "/internal_autocraftitem EL_DORADO",
+        "nbt": "",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:bow",
+        "display_name": "Artemis' Bow",
+        "command": "/internal_autocraftitem ARTEMIS_BOW",
+        "nbt": "{ExtraAttributes:{UHCid:50001}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "display_name": "Tablets of Destiny",
+        "command": "/internal_autocraftitem TABLETS_OF_DESTINY",
+        "nbt": "{StoredEnchantments:[{id:16s,lvl:3s},{id:48s,lvl:3s},{id:0s,lvl:4s},{id:20s,lvl:1s}],ExtraAttributes:{UHCid:50005L}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:iron_sword",
+        "display_name": "Anduril",
+        "command": "/internal_autocraftitem ANDURIL",
+        "nbt": "{ExtraAttributes:{UHCid:50008}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "Chest of Fate",
+        "command": "/internal_autocraftitem CHEST_OF_FATE",
+        "nbt": "{ench:[{lvl:1s,id:34s}],CustomPotionEffects:[{Ambient:1b,Duration:2400,Id:22b,Amplifier:3b}],ExtraAttributes:{UHCid:50010}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:golden_carrot",
+        "display_name": "Cornucopia",
+        "command": "/internal_autocraftitem CORNUCOPIA",
+        "nbt": "{ExtraAttributes:{UHCid:50011}}",
+        "count": 3,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:experience_bottle",
+        "display_name": "Essence of Yggdrasil",
+        "command": "/internal_autocraftitem ESSENCE_OF_YGGDRASIL",
+        "nbt": "",
+        "count": 32,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:ender_chest",
+        "display_name": "Voidbox",
+        "command": "/internal_autocraftitem VOIDBOX",
+        "nbt": "{ExtraAttributes:{UHCid:50013}}",
+        "count": 2,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:potion",
+        "display_name": "Potion of Vitality",
+        "command": "/internal_autocraftitem POTION_OF_VITALITY",
+        "nbt": "{CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:240,Ambient:1b},{Id:10b,Amplifier:1b,Duration:160,Ambient:1b},{Id:18b,Amplifier:1b,Duration:240,Ambient:1b},{Id:20b,Amplifier:1b,Duration:120,Ambient:1b}],ExtraAttributes:{UHCid:50020L}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 16384
+      },
+      {
+        "item": "minecraft:diamond_pickaxe",
+        "display_name": "Miner's Blessing",
+        "command": "/internal_autocraftitem MINERS_BLESSING",
+        "nbt": "{ExtraAttributes:{UHCid:50021}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:glowstone_dust",
+        "display_name": "Ambrosia",
+        "command": "/internal_autocraftitem AMBROSIA",
+        "nbt": "{ExtraAttributes:{UHCid:50022}}",
+        "count": 1,
+        "enchant": "true",
+        "damage": 0
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "item": "minecraft:snowball",
+        "display_name": "The Mark",
+        "command": "/internal_autocraftitem THE_MARK",
+        "nbt": "{ExtraAttributes:{UHCid:50029}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
+      },
+      {
+        "item": "minecraft:chainmail_leggings",
+        "display_name": "Warlock Pants",
+        "command": "/internal_autocraftitem WARLOCK_PANTS",
+        "nbt": "{ExtraAttributes:{UHCid:50030}}",
+        "count": 1,
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -411,7 +768,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -419,7 +777,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -427,7 +786,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -435,7 +795,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -443,7 +804,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -451,7 +813,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -459,7 +822,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -467,7 +831,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -475,7 +840,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -483,7 +849,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -491,7 +858,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -499,7 +867,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -507,7 +876,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       },
       {
         "item": "minecraft:air",
@@ -515,15 +885,8 @@
         "command": "",
         "nbt": "",
         "count": 1,
-        "Enchant": "false"
-      },
-      {
-        "item": "minecraft:air",
-        "display_name": "",
-        "command": "",
-        "nbt": "",
-        "count": 1,
-        "Enchant": "false"
+        "enchant": "false",
+        "damage": 0
       }
     ]
   }

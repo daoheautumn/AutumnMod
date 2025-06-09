@@ -1,8 +1,8 @@
 # Commands
 command.crafthelper.reload.success=§fCraftHelper 物品重新加载成功。
-command.crafthelper.usage=§f/crafthelper reload - 从配置文件重新加载 CraftHelper 物品。
+command.crafthelper.usage=§f[§6A§f] §f/crafthelper reload - 从配置文件重新加载 CraftHelper 物品。
 command.autumn.usage=§f/autumn <命令> - 使用 '/au help' 查看命令列表。
-command.autumn.unknown=§c未知命令：%s。请使用 '/au help' 查看命令列表。
+command.autumn.unknown=§f[§6A§f] §c未知命令：%s。请使用 '/au help' 查看命令列表。
 command.autumn.togglebossbar.on=§f[§6A§f] §a已开启 Boss Bar
 command.autumn.togglebossbar.off=§f[§6A§f] §c已关闭 Boss Bar
 command.autumn.reloadcrafthelper.success=§f[§6A§f] §fCraftHelper 物品重新加载成功。
@@ -14,6 +14,8 @@ command.autumn.help.title=§6=== AutumnMod 命令 ===
 command.autumn.help.togglebossbar=§e/au ToggleBossBar §f- 切换 Boss Bar 显示状态
 command.autumn.help.togglecrafthelper=§e/au ToggleCraftHelper §f- 切换 CraftHelper 界面显示
 command.autumn.help.toggleitemalert=§e/au ToggleItemAlert §f- 切换物品检测提示
+command.autumn.help.toggleinventorycenter=§e/au ToggleInventoryCenter §f- 切换背包居中模式
+command.autumn.help.toggletype=§e/au ToggleType §f- 切换 CraftHelper 模式
 command.autumn.help.reloadcrafthelper=§e/au ReloadCraftHelper §f- 重新加载 CraftHelper 物品配置
 command.autumn.help.standalone=§6--- 独立命令 ---
 command.autumn.help.quickplay=§e快速游戏命令：
@@ -25,10 +27,14 @@ command.autumn.help.4v4=§e/4v4 §f- 进入 Bedwars 4v4 模式
 command.autumn.help.solo=§e/solo §f- 进入 UHC 单人模式
 command.autumn.help.teams=§e/teams §f- 进入 UHC 团队模式
 command.autumn.help.footer=§6====================
-command.togglebossbar.on=§a已开启 Boss Bar
-command.togglebossbar.off=§c已关闭 Boss Bar
+command.togglebossbar.on=§f[§6A§f] §a已开启 Boss Bar
+command.togglebossbar.off=§f[§6A§f] §c已关闭 Boss Bar
 command.autumn.lang.success=§f[§6A§f] §a语言已切换为 %s
-command.autumn.lang.invalid=§c未知语言：%s。请使用 'en' 或 'cn'。
+command.autumn.lang.invalid=§f[§6A§f] §c未知语言：%s。请使用 'en' 或 'cn'。
+command.autumn.toggleinventorycenter.on=§f[§6A§f] §a物品栏居中已启用
+command.autumn.toggleinventorycenter.off=§f[§6A§f] §c物品栏居中已禁用
+command.autumn.toggletype.fixed=§f[§6A§f] §fUHC合成助手已切换至固定模式
+command.autumn.toggletype.dynamic=§f[§6A§f] §fUHC合成助手已切换至动态模式
 
 # ItemChecker
 itemchecker.alert=§f[§6A§f] §c%s§7 持有 %s%s%s §f(%sm)

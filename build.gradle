@@ -10,7 +10,7 @@ buildscript {
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.4"
+version = "1.5"
 group = "com.daohe"
 archivesBaseName = "Autumnmod"
 
@@ -18,10 +18,13 @@ minecraft {
     version = "1.8.9-11.15.1.2318-1.8.9"
     runDir = "run"
     mappings = "stable_22"
+    makeObfSourceJar = false
 }
 
 dependencies {
     compile 'com.google.code.gson:gson:2.8.9'
+    // 添加ASM依赖用于CoreMod
+    compile 'org.ow2.asm:asm-all:5.2'
 }
 
 processResources {
@@ -47,6 +50,8 @@ tasks.withType(JavaCompile) {
 
 jar {
     manifest {
+        // 添加CoreMod相关的manifest属性
+        attributes 'FMLCorePlugin': 'com.daohe.autumnmod.coremod.UhcCraftHelperCoreMod'
         attributes 'FMLCorePluginContainsFMLMod': 'true'
     }
     destinationDir file('build/libs')

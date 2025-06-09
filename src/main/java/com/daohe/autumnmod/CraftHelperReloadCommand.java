@@ -1,4 +1,4 @@
-package com.daohe;
+package com.daohe.autumnmod;
 
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
@@ -22,7 +22,7 @@ public class CraftHelperReloadCommand extends CommandBase {
         return LanguageLoader.format("command.crafthelper.usage");
     }
 
-    // 处理重载配置的命令
+    // 处理reload配置的命令
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
         if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
